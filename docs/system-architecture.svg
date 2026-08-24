@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<rect width="1200" height="650" fill="white"/>
+<text x="600" y="55" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700">AUTOMOTIVE CAN COMMUNICATION SYSTEM</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="60" y="150" width="260" height="250" rx="16" fill="#eef4ff" stroke="#2d5aa6" stroke-width="3"/>
+<text x="190" y="195" font-size="22" font-weight="700">SENSOR ECU</text>
+<text x="190" y="235" font-size="16">Battery Voltage</text>
+<text x="190" y="270" font-size="16">Motor Speed</text>
+<text x="190" y="305" font-size="16">Temperature</text>
+<text x="190" y="340" font-size="16">Vehicle Status</text>
+<text x="190" y="380" font-size="14">Embedded C</text>
+
+<rect x="470" y="210" width="260" height="130" rx="16" fill="#f4f0ff" stroke="#6d3bb5" stroke-width="3"/>
+<text x="600" y="260" font-size="22" font-weight="700">CAN BUS</text>
+<text x="600" y="295" font-size="17">500 kbps</text>
+<text x="600" y="320" font-size="14">Standard CAN Frames</text>
+
+<rect x="880" y="150" width="260" height="250" rx="16" fill="#eefaf2" stroke="#2d8a4a" stroke-width="3"/>
+<text x="1010" y="195" font-size="22" font-weight="700">VEHICLE ECU</text>
+<text x="1010" y="235" font-size="16">Receive CAN Frames</text>
+<text x="1010" y="270" font-size="16">Decode Signals</text>
+<text x="1010" y="305" font-size="16">Monitor Limits</text>
+<text x="1010" y="340" font-size="16">Fault / Status</text>
+<text x="1010" y="380" font-size="14">Embedded C</text>
+
+<line x1="320" y1="275" x2="470" y2="275" stroke="#222" stroke-width="5"/>
+<polygon points="470,275 450,264 450,286" fill="#222"/>
+<line x1="730" y1="275" x2="880" y2="275" stroke="#222" stroke-width="5"/>
+<polygon points="880,275 860,264 860,286" fill="#222"/>
+
+<rect x="290" y="470" width="620" height="100" rx="14" fill="#f7f7f7" stroke="#777" stroke-width="2"/>
+<text x="600" y="510" font-size="19" font-weight="700">CAN Message Examples</text>
+<text x="600" y="540" font-size="15">0x100 Battery • 0x101 Motor • 0x102 Temperature • 0x103 Status</text>
+</g>
+</svg>
