@@ -1,0 +1,55 @@
+==================================================
+ AUTOMOTIVE CAN COMMUNICATION TEST LOG
+==================================================
+
+CAN Configuration
+-----------------
+CAN Bitrate : 500 kbps
+CAN Type    : Standard CAN
+DLC         : Maximum 8 bytes
+
+--------------------------------------------------
+CAN TRANSMISSION
+--------------------------------------------------
+
+Message 1
+CAN ID : 0x100
+DLC    : 2
+Data   : 0F A0
+Signal : Battery Voltage
+Value  : 400.0 V
+
+Message 2
+CAN ID : 0x101
+DLC    : 2
+Data   : 0B B8
+Signal : Motor Speed
+Value  : 3000 RPM
+
+Message 3
+CAN ID : 0x102
+DLC    : 1
+Data   : 4B
+Signal : Motor Temperature
+Value  : 75 °C
+
+Message 4
+CAN ID : 0x103
+DLC    : 1
+Data   : 01
+Signal : Vehicle Status
+Value  : SYSTEM OK
+
+--------------------------------------------------
+TEST RESULT
+--------------------------------------------------
+
+CAN Initialization : PASS
+Battery Message    : PASS
+Motor Message      : PASS
+Temperature Message: PASS
+Status Message     : PASS
+
+Overall Result     : PASS
+
+==================================================
